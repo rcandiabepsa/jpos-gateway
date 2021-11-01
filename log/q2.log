@@ -1,0 +1,2791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2021-11-01T14:25:52.589826500">
+  <info>
+    Q2 started, deployDir=C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:25:52.792437600" lifespan="202ms">
+  <version>
+    jPOS 2.1.1-SNAPSHOT master/a4d66c5 (2017-11-08 14:01:25 UTC) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:25:52.810970200">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T14:25:52.810970200">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T14:25:52.810970200">
+  <info>
+               OS: Windows 10 (10.0)
+             Java: 11.0.13 (Oracle Corporation) AES-secure
+     process name: 17860@NB25102102
+             host: NB25102102/192.170.171.44
+              cwd: C:\Desarrollo\jpos-2.1.1-SNAPSHOT
+       free space: 397,4 GiB
+          version: 2.1.1-SNAPSHOT (a4d66c5)
+         instance: 692661df-804c-43b1-96ec-01f786f36bbc
+           uptime: 00:00:00.585 (-1,000000)
+       processors: 8
+           drift : 0
+    memory(t/u/f): 252/12/239
+         encoding: windows-1252
+         timezone: America/Asuncion (hora de Paraguay) -03:00
+    watch service: sun.nio.fs.WindowsWatchService
+             rule: TransitionRule[Overlap -03:00 to -04:00, SUNDAY on or after MARCH 22 at 00:00 WALL, standard offset -04:00]
+             rule: TransitionRule[Gap -04:00 to -03:00, SUNDAY on or after OCTOBER 1 at 00:00 WALL, standard offset -04:00]
+       transition: 2022-03-27T03:00:00Z (2022-03-26T23:00-04:00[America/Asuncion])
+            clock: 1635787552 2021-11-01T17:25:52.828103900Z
+     thread count: 11
+     peak threads: 11
+     user threads: 6
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-692661df-804c-43b1-96ec-01f786f36bbc,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[FileSystemWatchService,5,main]
+            Thread[Timer-0,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[Common-Cleaner,8,InnocuousThreadGroup]
+    name-registrar:
+      Q2: org.jpos.q2.Q2
+      logger.Q2: org.jpos.util.Logger
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:26:01.108074">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:26:02.860698600">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\99_sysmon.xml
+  </trace>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T14:26:02.860698600">
+  <info>
+    Stopping SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T14:26:02.860698600">
+  <info>
+               OS: Windows 10 (10.0)
+             Java: 11.0.13 (Oracle Corporation) AES-secure
+     process name: 17860@NB25102102
+             host: NB25102102/192.170.171.44
+              cwd: C:\Desarrollo\jpos-2.1.1-SNAPSHOT
+       free space: 397,4 GiB
+          version: 2.1.1-SNAPSHOT (a4d66c5)
+         instance: 692661df-804c-43b1-96ec-01f786f36bbc
+           uptime: 00:00:10.618 (-1,000000)
+       processors: 8
+           drift : 0
+    memory(t/u/f): 252/14/237
+         encoding: windows-1252
+         timezone: America/Asuncion (hora de Paraguay) -03:00
+    watch service: sun.nio.fs.WindowsWatchService
+             rule: TransitionRule[Overlap -03:00 to -04:00, SUNDAY on or after MARCH 22 at 00:00 WALL, standard offset -04:00]
+             rule: TransitionRule[Gap -04:00 to -03:00, SUNDAY on or after OCTOBER 1 at 00:00 WALL, standard offset -04:00]
+       transition: 2022-03-27T03:00:00Z (2022-03-26T23:00-04:00[America/Asuncion])
+            clock: 1635787562 2021-11-01T17:26:02.860698600Z
+     thread count: 13
+     peak threads: 14
+     user threads: 7
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[SIGINT handler,9,system]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-692661df-804c-43b1-96ec-01f786f36bbc,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[FileSystemWatchService,5,main]
+            Thread[Timer-0,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[Q2-ShutdownHook,5,main]
+            Thread[Common-Cleaner,8,InnocuousThreadGroup]
+    name-registrar:
+      Q2: org.jpos.q2.Q2
+      logger.Q2: org.jpos.util.Logger
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:26:02.876205300" lifespan="15ms">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:26:02.876205300">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\00_logger.xml
+  </trace>
+</log>
+</logger>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2021-11-01T14:29:17.549358900">
+  <info>
+    Q2 started, deployDir=C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:29:17.749477600" lifespan="184ms">
+  <version>
+    jPOS 2.1.1-SNAPSHOT master/a4d66c5 (2017-11-08 14:01:25 UTC) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:29:17.779054800">
+  <warn>
+    Tidying C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml out of the way, by adding .BAD
+    It will be called: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml.BAD see log above for detail of problem.
+  </warn>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:29:17.779054800" lifespan="29ms">
+  <info>
+    <exception name="Error on line 4 of document file:/C:/Desarrollo/jpos-2.1.1-SNAPSHOT/deploy/50_xml_server.xml: Element type "channel" must be followed by either attribute specifications, ">" or "/>".">
+    org.jdom2.input.JDOMParseException: Error on line 4 of document file:/C:/Desarrollo/jpos-2.1.1-SNAPSHOT/deploy/50_xml_server.xml: Element type "channel" must be followed by either attribute specifications, ">" or "/>".
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:228)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:277)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:264)
+	at org.jdom2.input.SAXBuilder.build(SAXBuilder.java:1116)
+	at org.jpos.q2.Q2.deploy(Q2.java:550)
+	at org.jpos.q2.Q2.deploy(Q2.java:379)
+	at org.jpos.q2.Q2.run(Q2.java:257)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.xml.sax.SAXParseException; systemId: file:/C:/Desarrollo/jpos-2.1.1-SNAPSHOT/deploy/50_xml_server.xml; lineNumber: 4; columnNumber: 76; Element type "channel" must be followed by either attribute specifications, ">" or "/>".
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.seekCloseOfStartTag(XMLDocumentFragmentScannerImpl.java:1433)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:259)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2710)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:217)
+	... 7 more
+    </exception>
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:29:17.794686300">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T14:29:17.794686300">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T14:29:17.794686300">
+  <info>
+               OS: Windows 10 (10.0)
+             Java: 11.0.13 (Oracle Corporation) AES-secure
+     process name: 17940@NB25102102
+             host: NB25102102/192.170.171.44
+              cwd: C:\Desarrollo\jpos-2.1.1-SNAPSHOT
+       free space: 397,4 GiB
+          version: 2.1.1-SNAPSHOT (a4d66c5)
+         instance: ea31793e-475c-41e0-b011-a95b8c7a998b
+           uptime: 00:00:00.561 (-1,000000)
+       processors: 8
+           drift : 0
+    memory(t/u/f): 252/10/241
+         encoding: windows-1252
+         timezone: America/Asuncion (hora de Paraguay) -03:00
+    watch service: sun.nio.fs.WindowsWatchService
+             rule: TransitionRule[Overlap -03:00 to -04:00, SUNDAY on or after MARCH 22 at 00:00 WALL, standard offset -04:00]
+             rule: TransitionRule[Gap -04:00 to -03:00, SUNDAY on or after OCTOBER 1 at 00:00 WALL, standard offset -04:00]
+       transition: 2022-03-27T03:00:00Z (2022-03-26T23:00-04:00[America/Asuncion])
+            clock: 1635787757 2021-11-01T17:29:17.794686300Z
+     thread count: 11
+     peak threads: 11
+     user threads: 6
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-ea31793e-475c-41e0-b011-a95b8c7a998b,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[FileSystemWatchService,5,main]
+            Thread[Timer-0,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[Common-Cleaner,8,InnocuousThreadGroup]
+    name-registrar:
+      Q2: org.jpos.q2.Q2
+      logger.Q2: org.jpos.util.Logger
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:29:17.849568400" lifespan="54ms">
+  <info>
+    removed deploy/50_xml_server.xml
+    created deploy/50_xml_server.xml.BAD
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:33:24.971633" lifespan="7ms">
+  <info>
+    created deploy/50_xml_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:33:26.789999300" lifespan="4ms">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:33:26.789999300">
+  <info>
+    modified deploy/50_xml_server.xml
+  </info>
+</log>
+<log realm="xml-server-8000.server" at="2021-11-01T14:33:26.789999300">
+  <iso-server>
+    listening on port 8000
+  </iso-server>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:33:29.246167400">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:33:29.314981900">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\99_sysmon.xml
+  </trace>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T14:33:29.314981900">
+  <info>
+    Stopping SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T14:33:29.314981900">
+  <info>
+               OS: Windows 10 (10.0)
+             Java: 11.0.13 (Oracle Corporation) AES-secure
+     process name: 17940@NB25102102
+             host: NB25102102/192.170.171.44
+              cwd: C:\Desarrollo\jpos-2.1.1-SNAPSHOT
+       free space: 397,4 GiB
+          version: 2.1.1-SNAPSHOT (a4d66c5)
+         instance: ea31793e-475c-41e0-b011-a95b8c7a998b
+           uptime: 00:04:12.081 (-1,000000)
+       processors: 8
+           drift : 0
+    memory(t/u/f): 252/13/238
+         encoding: windows-1252
+         timezone: America/Asuncion (hora de Paraguay) -03:00
+    watch service: sun.nio.fs.WindowsWatchService
+             rule: TransitionRule[Overlap -03:00 to -04:00, SUNDAY on or after MARCH 22 at 00:00 WALL, standard offset -04:00]
+             rule: TransitionRule[Gap -04:00 to -03:00, SUNDAY on or after OCTOBER 1 at 00:00 WALL, standard offset -04:00]
+       transition: 2022-03-27T03:00:00Z (2022-03-26T23:00-04:00[America/Asuncion])
+            clock: 1635788009 2021-11-01T17:33:29.314981900Z
+     thread count: 15
+     peak threads: 16
+     user threads: 9
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[SIGINT handler,9,system]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-ea31793e-475c-41e0-b011-a95b8c7a998b,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[FileSystemWatchService,5,main]
+            Thread[Timer-0,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[Thread-2,5,main]
+            Thread[Q2-ShutdownHook,5,main]
+            Thread[xml-server-8000-ThreadPool.PooledThread-0,5,xml-server-8000-ThreadPool-0]
+            Thread[Common-Cleaner,8,InnocuousThreadGroup]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      Q2: org.jpos.q2.Q2
+      logger.Q2: org.jpos.util.Logger
+      server.xml-server-8000: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      xml-server-8000: org.jpos.q2.iso.QServer
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:33:29.330573100" lifespan="15ms">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:33:29.330573100">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </trace>
+</log>
+<log realm="xml-server-8000.pool" at="2021-11-01T14:33:29.330573100">
+  <queue closed/>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:33:29.330573100">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:33:29.330573100">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\00_logger.xml
+  </trace>
+</log>
+</logger>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2021-11-01T14:33:34.292168600">
+  <info>
+    Q2 started, deployDir=C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:33:34.506260700" lifespan="214ms">
+  <version>
+    jPOS 2.1.1-SNAPSHOT master/a4d66c5 (2017-11-08 14:01:25 UTC) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:33:34.509758300">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:33:34.509758300">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T14:33:34.523951800">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="xml-server-8000.server" at="2021-11-01T14:33:34.523951800">
+  <iso-server>
+    listening on port 8000
+  </iso-server>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T14:33:34.539956300">
+  <info>
+               OS: Windows 10 (10.0)
+             Java: 11.0.13 (Oracle Corporation) AES-secure
+     process name: 4224@NB25102102
+             host: NB25102102/192.170.171.44
+              cwd: C:\Desarrollo\jpos-2.1.1-SNAPSHOT
+       free space: 397,4 GiB
+          version: 2.1.1-SNAPSHOT (a4d66c5)
+         instance: 47dc3046-3b90-455c-907c-42650d2fc12b
+           uptime: 00:00:00.562 (-1,000000)
+       processors: 8
+           drift : 0
+    memory(t/u/f): 252/11/240
+         encoding: windows-1252
+         timezone: America/Asuncion (hora de Paraguay) -03:00
+    watch service: sun.nio.fs.WindowsWatchService
+             rule: TransitionRule[Overlap -03:00 to -04:00, SUNDAY on or after MARCH 22 at 00:00 WALL, standard offset -04:00]
+             rule: TransitionRule[Gap -04:00 to -03:00, SUNDAY on or after OCTOBER 1 at 00:00 WALL, standard offset -04:00]
+       transition: 2022-03-27T03:00:00Z (2022-03-26T23:00-04:00[America/Asuncion])
+            clock: 1635788014 2021-11-01T17:33:34.539956300Z
+     thread count: 13
+     peak threads: 13
+     user threads: 8
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-47dc3046-3b90-455c-907c-42650d2fc12b,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[FileSystemWatchService,5,main]
+            Thread[Timer-0,5,main]
+            Thread[Thread-2,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[xml-server-8000-ThreadPool.PooledThread-0,5,xml-server-8000-ThreadPool-0]
+            Thread[Common-Cleaner,8,InnocuousThreadGroup]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      Q2: org.jpos.q2.Q2
+      logger.Q2: org.jpos.util.Logger
+      server.xml-server-8000: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      xml-server-8000: org.jpos.q2.iso.QServer
+  </info>
+</log>
+<log realm="xml-server-8000.server.session/0:0:0:0:0:0:0:1:50813" at="2021-11-01T14:33:42.238273">
+  <session-start/>
+</log>
+<log realm="xml-server-8000/0:0:0:0:0:0:0:1:50813" at="2021-11-01T14:34:22.480212500" lifespan="40241ms">
+  <receive>
+    <iso-exception>
+      org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 147; The markup in the document following the root element must be well-formed.
+      org.jpos.iso.ISOException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 147; The markup in the document following the root element must be well-formed.
+	at org.jpos.iso.packager.XMLPackager.unpack(XMLPackager.java:137)
+	at org.jpos.iso.ISOMsg.unpack(ISOMsg.java:468)
+	at org.jpos.iso.BaseChannel.unpack(BaseChannel.java:965)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:735)
+	at org.jpos.iso.ISOServer$Session.run(ISOServer.java:344)
+	at org.jpos.util.ThreadPool$PooledThread.run(ThreadPool.java:76)
+    </iso-exception>
+    --- data ---
+    0000  3C 69 73 6F 6D 73 67 3E  20 3C 66 69 65 6C 64 20  <isomsg> <field 
+0010  69 64 3D 22 30 22 20 76  61 6C 75 65 3D 22 30 38  id="0" value="08
+0020  30 30 22 20 2F 3E 20 3C  66 69 65 6C 64 20 69 64  00" /> <field id
+0030  3D 22 31 31 22 20 76 61  6C 75 65 3D 22 30 30 30  ="11" value="000
+0040  30 30 31 22 20 2F 3E 20  3C 66 69 65 6C 64 20 69  001" /> <field i
+0050  64 3D 22 34 31 22 20 76  61 6C 75 65 3D 22 30 30  d="41" value="00
+0060  30 30 30 30 30 31 22 20  2F 3E 20 3C 66 69 65 6C  000001" /> <fiel
+0070  64 20 69 64 3D 22 37 30  22 20 76 61 6C 75 65 3D  d id="70" value=
+0080  22 33 30 31 22 20 2F 3E  3C 2F 69 73 6F 6D 73 67  "301" /></isomsg
+0090  3E 3C 69 73 6F 6D 73 67  3E 20 3C 66 69 65 6C 64  ><isomsg> <field
+00a0  20 69 64 3D 22 30 22 20  76 61 6C 75 65 3D 22 30   id="0" value="0
+00b0  38 30 30 22 20 2F 3E 20  3C 66 69 65 6C 64 20 69  800" /> <field i
+00c0  64 3D 22 31 31 22 20 76  61 6C 75 65 3D 22 30 30  d="11" value="00
+00d0  30 30 30 31 22 20 2F 3E  20 3C 66 69 65 6C 64 20  0001" /> <field 
+00e0  69 64 3D 22 34 31 22 20  76 61 6C 75 65 3D 22 30  id="41" value="0
+00f0  30 30 30 30 30 30 31 22  20 2F 3E 20 3C 66 69 65  0000001" /> <fie
+0100  6C 64 20 69 64 3D 22 37  30 22 20 76 61 6C 75 65  ld id="70" value
+0110  3D 22 33 30 31 22 20 2F  3E 3C 2F 69 73 6F 6D 73  ="301" /></isoms
+0120  67 3E                                             g>
+
+  </receive>
+</log>
+<log realm="xml-server-8000.server.session/0:0:0:0:0:0:0:1:50813" at="2021-11-01T14:34:22.480212500">
+  <session-error>
+    <iso-exception>
+      org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 147; The markup in the document following the root element must be well-formed.
+      org.jpos.iso.ISOException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 147; The markup in the document following the root element must be well-formed.
+	at org.jpos.iso.packager.XMLPackager.unpack(XMLPackager.java:137)
+	at org.jpos.iso.ISOMsg.unpack(ISOMsg.java:468)
+	at org.jpos.iso.BaseChannel.unpack(BaseChannel.java:965)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:735)
+	at org.jpos.iso.ISOServer$Session.run(ISOServer.java:344)
+	at org.jpos.util.ThreadPool$PooledThread.run(ThreadPool.java:76)
+    </iso-exception>
+  </session-error>
+</log>
+<log realm="xml-server-8000.server.session/0:0:0:0:0:0:0:1:50813" at="2021-11-01T14:34:22.494815">
+  <session-end/>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:34:48.961659">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:34:49.780414600">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\99_sysmon.xml
+  </trace>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T14:34:49.780414600">
+  <info>
+    Stopping SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T14:34:49.780414600">
+  <info>
+               OS: Windows 10 (10.0)
+             Java: 11.0.13 (Oracle Corporation) AES-secure
+     process name: 4224@NB25102102
+             host: NB25102102/192.170.171.44
+              cwd: C:\Desarrollo\jpos-2.1.1-SNAPSHOT
+       free space: 397,4 GiB
+          version: 2.1.1-SNAPSHOT (a4d66c5)
+         instance: 47dc3046-3b90-455c-907c-42650d2fc12b
+           uptime: 00:01:15.818 (-1,000000)
+       processors: 8
+           drift : 0
+    memory(t/u/f): 252/14/237
+         encoding: windows-1252
+         timezone: America/Asuncion (hora de Paraguay) -03:00
+    watch service: sun.nio.fs.WindowsWatchService
+             rule: TransitionRule[Overlap -03:00 to -04:00, SUNDAY on or after MARCH 22 at 00:00 WALL, standard offset -04:00]
+             rule: TransitionRule[Gap -04:00 to -03:00, SUNDAY on or after OCTOBER 1 at 00:00 WALL, standard offset -04:00]
+       transition: 2022-03-27T03:00:00Z (2022-03-26T23:00-04:00[America/Asuncion])
+            clock: 1635788089 2021-11-01T17:34:49.780414600Z
+     thread count: 15
+     peak threads: 16
+     user threads: 9
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[SIGINT handler,9,system]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-47dc3046-3b90-455c-907c-42650d2fc12b,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[FileSystemWatchService,5,main]
+            Thread[Timer-0,5,main]
+            Thread[Thread-2,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[Q2-ShutdownHook,5,main]
+            Thread[xml-server-8000-ThreadPool.PooledThread-0-idle,5,xml-server-8000-ThreadPool-0]
+            Thread[Common-Cleaner,8,InnocuousThreadGroup]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      Q2: org.jpos.q2.Q2
+      logger.Q2: org.jpos.util.Logger
+      server.xml-server-8000: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      xml-server-8000: org.jpos.q2.iso.QServer
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:34:49.797875400" lifespan="17ms">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:34:49.797875400">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:34:49.797875400">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </info>
+</log>
+<log realm="xml-server-8000.pool" at="2021-11-01T14:34:49.797875400">
+  <queue closed/>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:34:49.797875400">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\00_logger.xml
+  </trace>
+</log>
+</logger>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2021-11-01T14:34:57.402722400">
+  <info>
+    Q2 started, deployDir=C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:34:57.596596700" lifespan="193ms">
+  <version>
+    jPOS 2.1.1-SNAPSHOT master/a4d66c5 (2017-11-08 14:01:25 UTC) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:34:57.613222100">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:34:57.613222100">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T14:34:57.628978700">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="xml-server-8000.server" at="2021-11-01T14:34:57.628978700">
+  <iso-server>
+    listening on port 8000
+  </iso-server>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T14:34:57.628978700">
+  <info>
+               OS: Windows 10 (10.0)
+             Java: 11.0.13 (Oracle Corporation) AES-secure
+     process name: 15828@NB25102102
+             host: NB25102102/192.170.171.44
+              cwd: C:\Desarrollo\jpos-2.1.1-SNAPSHOT
+       free space: 397,4 GiB
+          version: 2.1.1-SNAPSHOT (a4d66c5)
+         instance: 26424923-21c5-4cec-b71f-b7974abcaf96
+           uptime: 00:00:00.557 (-1,000000)
+       processors: 8
+           drift : 0
+    memory(t/u/f): 252/11/240
+         encoding: windows-1252
+         timezone: America/Asuncion (hora de Paraguay) -03:00
+    watch service: sun.nio.fs.WindowsWatchService
+             rule: TransitionRule[Overlap -03:00 to -04:00, SUNDAY on or after MARCH 22 at 00:00 WALL, standard offset -04:00]
+             rule: TransitionRule[Gap -04:00 to -03:00, SUNDAY on or after OCTOBER 1 at 00:00 WALL, standard offset -04:00]
+       transition: 2022-03-27T03:00:00Z (2022-03-26T23:00-04:00[America/Asuncion])
+            clock: 1635788097 2021-11-01T17:34:57.628978700Z
+     thread count: 13
+     peak threads: 13
+     user threads: 8
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-26424923-21c5-4cec-b71f-b7974abcaf96,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[FileSystemWatchService,5,main]
+            Thread[Timer-0,5,main]
+            Thread[Thread-2,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[xml-server-8000-ThreadPool.PooledThread-0,5,xml-server-8000-ThreadPool-0]
+            Thread[Common-Cleaner,8,InnocuousThreadGroup]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      Q2: org.jpos.q2.Q2
+      logger.Q2: org.jpos.util.Logger
+      server.xml-server-8000: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      xml-server-8000: org.jpos.q2.iso.QServer
+  </info>
+</log>
+<log realm="xml-server-8000.server.session/0:0:0:0:0:0:0:1:50827" at="2021-11-01T14:35:09.358714400">
+  <session-start/>
+</log>
+<log realm="xml-server-8000/0:0:0:0:0:0:0:1:50827" at="2021-11-01T14:36:30.584011" lifespan="81225ms">
+  <receive>
+    <iso-exception>
+      org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+      org.jpos.iso.ISOException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+	at org.jpos.iso.packager.XMLPackager.unpack(XMLPackager.java:137)
+	at org.jpos.iso.ISOMsg.unpack(ISOMsg.java:468)
+	at org.jpos.iso.BaseChannel.unpack(BaseChannel.java:965)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:735)
+	at org.jpos.iso.ISOServer$Session.run(ISOServer.java:344)
+	at org.jpos.util.ThreadPool$PooledThread.run(ThreadPool.java:76)
+    </iso-exception>
+    --- data ---
+    0000  16 3C 69 73 6F 6D 73 67  3E 20 3C 66 69 65 6C 64  .<isomsg> <field
+0010  20 69 64 3D 22 30 22 20  76 61 6C 75 65 3D 22 30   id="0" value="0
+0020  38 30 30 22 20 2F 3E 20  3C 66 69 65 6C 64 20 69  800" /> <field i
+0030  64 3D 22 31 31 22 20 76  61 6C 75 65 3D 22 30 30  d="11" value="00
+0040  30 30 30 31 22 20 2F 3E  20 3C 66 69 65 6C 64 20  0001" /> <field 
+0050  69 64 3D 22 34 31 22 20  76 61 6C 75 65 3D 22 30  id="41" value="0
+0060  30 30 30 30 30 30 31 22  20 2F 3E 20 3C 66 69 65  0000001" /> <fie
+0070  6C 64 20 69 64 3D 22 37  30 22 20 76 61 6C 75 65  ld id="70" value
+0080  3D 22 33 30 31 22 20 2F  3E 3C 2F 69 73 6F 6D 73  ="301" /></isoms
+0090  67 3E                                             g>
+
+  </receive>
+</log>
+<log realm="xml-server-8000.server.session/0:0:0:0:0:0:0:1:50827" at="2021-11-01T14:36:30.599504400">
+  <session-error>
+    <iso-exception>
+      org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+      org.jpos.iso.ISOException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+	at org.jpos.iso.packager.XMLPackager.unpack(XMLPackager.java:137)
+	at org.jpos.iso.ISOMsg.unpack(ISOMsg.java:468)
+	at org.jpos.iso.BaseChannel.unpack(BaseChannel.java:965)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:735)
+	at org.jpos.iso.ISOServer$Session.run(ISOServer.java:344)
+	at org.jpos.util.ThreadPool$PooledThread.run(ThreadPool.java:76)
+    </iso-exception>
+  </session-error>
+</log>
+<log realm="xml-server-8000.server.session/0:0:0:0:0:0:0:1:50827" at="2021-11-01T14:36:30.607629500">
+  <session-end/>
+</log>
+<log realm="xml-server-8000.server.session/0:0:0:0:0:0:0:1:50857" at="2021-11-01T14:38:29.228273600">
+  <session-start/>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:41:29.393158">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:41:31.343148200">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\99_sysmon.xml
+  </trace>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T14:41:31.343148200">
+  <info>
+    Stopping SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T14:41:31.343148200">
+  <info>
+               OS: Windows 10 (10.0)
+             Java: 11.0.13 (Oracle Corporation) AES-secure
+     process name: 15828@NB25102102
+             host: NB25102102/192.170.171.44
+              cwd: C:\Desarrollo\jpos-2.1.1-SNAPSHOT
+       free space: 397,4 GiB
+          version: 2.1.1-SNAPSHOT (a4d66c5)
+         instance: 26424923-21c5-4cec-b71f-b7974abcaf96
+           uptime: 00:06:34.271 (-1,000000)
+       processors: 8
+           drift : 0
+    memory(t/u/f): 252/14/237
+         encoding: windows-1252
+         timezone: America/Asuncion (hora de Paraguay) -03:00
+    watch service: sun.nio.fs.WindowsWatchService
+             rule: TransitionRule[Overlap -03:00 to -04:00, SUNDAY on or after MARCH 22 at 00:00 WALL, standard offset -04:00]
+             rule: TransitionRule[Gap -04:00 to -03:00, SUNDAY on or after OCTOBER 1 at 00:00 WALL, standard offset -04:00]
+       transition: 2022-03-27T03:00:00Z (2022-03-26T23:00-04:00[America/Asuncion])
+            clock: 1635788491 2021-11-01T17:41:31.343148200Z
+     thread count: 15
+     peak threads: 16
+     user threads: 9
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[SIGINT handler,9,system]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-26424923-21c5-4cec-b71f-b7974abcaf96,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[FileSystemWatchService,5,main]
+            Thread[Timer-0,5,main]
+            Thread[Thread-2,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[Q2-ShutdownHook,5,main]
+            Thread[xml-server-8000-ThreadPool.PooledThread-0-running,5,xml-server-8000-ThreadPool-0]
+            Thread[Common-Cleaner,8,InnocuousThreadGroup]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      Q2: org.jpos.q2.Q2
+      logger.Q2: org.jpos.util.Logger
+      server.xml-server-8000: org.jpos.iso.ISOServer
+        connected=1, rx=0, tx=0, last=0
+          0:0:0:0:0:0:0:1:50857: rx=0, tx=0, last=0
+      xml-server-8000: org.jpos.q2.iso.QServer
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:41:31.363074" lifespan="19ms">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:41:31.363074">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:41:31.363074">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </info>
+</log>
+<log realm="xml-server-8000/0:0:0:0:0:0:0:1:50857" at="2021-11-01T14:41:31.363074" lifespan="182134ms">
+  <receive/>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:41:31.363074">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\00_logger.xml
+  </trace>
+</log>
+</logger>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2021-11-01T14:41:44.238990200">
+  <info>
+    Q2 started, deployDir=C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:41:44.439460400" lifespan="184ms">
+  <version>
+    jPOS 2.1.1-SNAPSHOT master/a4d66c5 (2017-11-08 14:01:25 UTC) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:41:44.455080200" lifespan="15ms">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:41:44.455080200">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T14:41:44.470703900">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="xml-server-8000.server" at="2021-11-01T14:41:44.470703900">
+  <iso-server>
+    listening on port 8000
+  </iso-server>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T14:41:44.470703900">
+  <info>
+               OS: Windows 10 (10.0)
+             Java: 11.0.13 (Oracle Corporation) AES-secure
+     process name: 17404@NB25102102
+             host: NB25102102/192.170.171.44
+              cwd: C:\Desarrollo\jpos-2.1.1-SNAPSHOT
+       free space: 397,4 GiB
+          version: 2.1.1-SNAPSHOT (a4d66c5)
+         instance: de7be205-32f6-4e4f-8c2f-5701afef2468
+           uptime: 00:00:00.538 (-1,000000)
+       processors: 8
+           drift : 0
+    memory(t/u/f): 252/10/241
+         encoding: windows-1252
+         timezone: America/Asuncion (hora de Paraguay) -03:00
+    watch service: sun.nio.fs.WindowsWatchService
+             rule: TransitionRule[Overlap -03:00 to -04:00, SUNDAY on or after MARCH 22 at 00:00 WALL, standard offset -04:00]
+             rule: TransitionRule[Gap -04:00 to -03:00, SUNDAY on or after OCTOBER 1 at 00:00 WALL, standard offset -04:00]
+       transition: 2022-03-27T03:00:00Z (2022-03-26T23:00-04:00[America/Asuncion])
+            clock: 1635788504 2021-11-01T17:41:44.477402900Z
+     thread count: 13
+     peak threads: 13
+     user threads: 8
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-de7be205-32f6-4e4f-8c2f-5701afef2468,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[FileSystemWatchService,5,main]
+            Thread[Timer-0,5,main]
+            Thread[Thread-2,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[xml-server-8000-ThreadPool.PooledThread-0,5,xml-server-8000-ThreadPool-0]
+            Thread[Common-Cleaner,8,InnocuousThreadGroup]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      Q2: org.jpos.q2.Q2
+      logger.Q2: org.jpos.util.Logger
+      server.xml-server-8000: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      xml-server-8000: org.jpos.q2.iso.QServer
+  </info>
+</log>
+<log realm="xml-server-8000.server.session/0:0:0:0:0:0:0:1:50888" at="2021-11-01T14:42:00.055296700">
+  <session-start/>
+</log>
+<log realm="xml-server-8000/0:0:0:0:0:0:0:1:50888" at="2021-11-01T14:43:05.480550700" lifespan="65425ms">
+  <receive>
+    <peer-disconnect/>
+  </receive>
+</log>
+<log realm="xml-server-8000.server.session/0:0:0:0:0:0:0:1:50888" at="2021-11-01T14:43:05.484787600">
+  <session-end/>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:44:44.641843600">
+  <info>
+    removed deploy/50_xml_server.xml.BAD
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:44:51.692185200">
+  <info>
+    modified deploy/50_xml_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:44:51.711345200">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:44:51.716858900">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </info>
+</log>
+<log realm="xml-server-8000.pool" at="2021-11-01T14:44:51.718913200" lifespan="2ms">
+  <queue closed/>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:44:51.718913200">
+  <info>
+    modified deploy/50_xml_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:44:51.730949500">
+  <warn>
+    Tidying C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml out of the way, by adding .BAD
+    It will be called: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml.BAD see log above for detail of problem.
+  </warn>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:44:51.730949500" lifespan="3ms">
+  <info>
+    <exception name="Error on line 19 of document file:/C:/Desarrollo/jpos-2.1.1-SNAPSHOT/deploy/50_xml_server.xml: The markup in the document following the root element must be well-formed.">
+    org.jdom2.input.JDOMParseException: Error on line 19 of document file:/C:/Desarrollo/jpos-2.1.1-SNAPSHOT/deploy/50_xml_server.xml: The markup in the document following the root element must be well-formed.
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:228)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:277)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:264)
+	at org.jdom2.input.SAXBuilder.build(SAXBuilder.java:1116)
+	at org.jpos.q2.Q2.deploy(Q2.java:550)
+	at org.jpos.q2.Q2.deploy(Q2.java:379)
+	at org.jpos.q2.Q2.run(Q2.java:257)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.xml.sax.SAXParseException; systemId: file:/C:/Desarrollo/jpos-2.1.1-SNAPSHOT/deploy/50_xml_server.xml; lineNumber: 19; columnNumber: 2; The markup in the document following the root element must be well-formed.
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$TrailingMiscDriver.next(XMLDocumentScannerImpl.java:1398)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:217)
+	... 7 more
+    </exception>
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:44:51.740705900">
+  <info>
+    removed deploy/50_xml_server.xml
+    created deploy/50_xml_server.xml.BAD
+    modified deploy/50_xml_server.xml.BAD
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:44:55.669532600">
+  <info>
+    created deploy/50_xml_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:44:55.699503900" lifespan="11ms">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:44:55.703990300">
+  <info>
+    modified deploy/50_xml_server.xml
+  </info>
+</log>
+<log realm="xml-server-8000.server" at="2021-11-01T14:44:55.703990300">
+  <iso-server>
+    listening on port 8000
+  </iso-server>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:44:55.885201600">
+  <info>
+    modified deploy/50_xml_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:44:55.885201600">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:44:55.896833500">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </info>
+</log>
+<log realm="xml-server-8000.pool" at="2021-11-01T14:44:55.899675300" lifespan="2ms">
+  <queue closed/>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:44:55.899675300">
+  <info>
+    modified deploy/50_xml_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:44:55.899675300">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </info>
+</log>
+<log realm="xml-server-8000.server" at="2021-11-01T14:44:55.899675300">
+  <iso-server>
+    listening on port 8000
+  </iso-server>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:44:56.085372200">
+  <info>
+    modified deploy/50_xml_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:44:56.085372200">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:44:56.100878200">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </info>
+</log>
+<log realm="xml-server-8000.pool" at="2021-11-01T14:44:56.104122500">
+  <queue closed/>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:44:56.104122500">
+  <info>
+    modified deploy/50_xml_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:44:56.104122500">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </info>
+</log>
+<log realm="xml-server-8000.server" at="2021-11-01T14:44:56.104122500">
+  <iso-server>
+    listening on port 8000
+  </iso-server>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:45:03.604918700">
+  <info>
+    modified deploy/50_xml_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:45:03.621558400">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:45:03.621558400">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </info>
+</log>
+<log realm="xml-server-8000.pool" at="2021-11-01T14:45:03.621558400">
+  <queue closed/>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:45:03.621558400">
+  <info>
+    modified deploy/50_xml_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:45:03.621558400">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </info>
+</log>
+<log realm="xml-server-8000.server" at="2021-11-01T14:45:03.637192400">
+  <iso-server>
+    listening on port 8000
+  </iso-server>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:45:03.820751300">
+  <info>
+    modified deploy/50_xml_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:45:03.836813800">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:45:03.842325100">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </info>
+</log>
+<log realm="xml-server-8000.pool" at="2021-11-01T14:45:03.846224100">
+  <queue closed/>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:45:03.846224100">
+  <info>
+    modified deploy/50_xml_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:45:03.846224100">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </info>
+</log>
+<log realm="xml-server-8000.server" at="2021-11-01T14:45:03.846224100">
+  <iso-server>
+    listening on port 8000
+  </iso-server>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:45:15.933382800">
+  <info>
+    removed deploy/50_xml_server.xml.BAD
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:45:20.613309500">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:45:20.945671600">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\99_sysmon.xml
+  </trace>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T14:45:20.945671600">
+  <info>
+    Stopping SystemMonitor
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:45:20.945671600">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T14:45:20.961176" lifespan="15ms">
+  <info>
+               OS: Windows 10 (10.0)
+             Java: 11.0.13 (Oracle Corporation) AES-secure
+     process name: 17404@NB25102102
+             host: NB25102102/192.170.171.44
+              cwd: C:\Desarrollo\jpos-2.1.1-SNAPSHOT
+       free space: 397,4 GiB
+          version: 2.1.1-SNAPSHOT (a4d66c5)
+         instance: de7be205-32f6-4e4f-8c2f-5701afef2468
+           uptime: 00:03:37.022 (-1,000000)
+       processors: 8
+           drift : 0
+    memory(t/u/f): 252/17/234
+         encoding: windows-1252
+         timezone: America/Asuncion (hora de Paraguay) -03:00
+    watch service: sun.nio.fs.WindowsWatchService
+             rule: TransitionRule[Overlap -03:00 to -04:00, SUNDAY on or after MARCH 22 at 00:00 WALL, standard offset -04:00]
+             rule: TransitionRule[Gap -04:00 to -03:00, SUNDAY on or after OCTOBER 1 at 00:00 WALL, standard offset -04:00]
+       transition: 2022-03-27T03:00:00Z (2022-03-26T23:00-04:00[America/Asuncion])
+            clock: 1635788720 2021-11-01T17:45:20.961176Z
+     thread count: 15
+     peak threads: 16
+     user threads: 9
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[SIGINT handler,9,system]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-de7be205-32f6-4e4f-8c2f-5701afef2468,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[FileSystemWatchService,5,main]
+            Thread[Timer-0,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[Thread-7,5,main]
+            Thread[Q2-ShutdownHook,5,main]
+            Thread[xml-server-8000-ThreadPool.PooledThread-5,5,xml-server-8000-ThreadPool-5]
+            Thread[Common-Cleaner,8,InnocuousThreadGroup]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      Q2: org.jpos.q2.Q2
+      logger.Q2: org.jpos.util.Logger
+      server.xml-server-8000: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      xml-server-8000: org.jpos.q2.iso.QServer
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:45:20.961176">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:45:20.961176">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </info>
+</log>
+<log realm="xml-server-8000.pool" at="2021-11-01T14:45:20.961176">
+  <queue closed/>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:45:20.961176">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\00_logger.xml
+  </trace>
+</log>
+</logger>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2021-11-01T14:45:32.086141700">
+  <info>
+    Q2 started, deployDir=C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:45:32.281336300" lifespan="179ms">
+  <version>
+    jPOS 2.1.1-SNAPSHOT master/a4d66c5 (2017-11-08 14:01:25 UTC) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:45:32.298461" lifespan="17ms">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:45:32.298461">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T14:45:32.314705500">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="xml-server-8000.server" at="2021-11-01T14:45:32.314705500">
+  <iso-server>
+    listening on port 8000
+  </iso-server>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T14:45:32.314705500">
+  <info>
+               OS: Windows 10 (10.0)
+             Java: 11.0.13 (Oracle Corporation) AES-secure
+     process name: 664@NB25102102
+             host: NB25102102/192.170.171.44
+              cwd: C:\Desarrollo\jpos-2.1.1-SNAPSHOT
+       free space: 397,4 GiB
+          version: 2.1.1-SNAPSHOT (a4d66c5)
+         instance: 2d35aa39-c29d-4ec6-8ae9-87f76bcf4004
+           uptime: 00:00:00.528 (-1,000000)
+       processors: 8
+           drift : 0
+    memory(t/u/f): 252/20/231
+         encoding: windows-1252
+         timezone: America/Asuncion (hora de Paraguay) -03:00
+    watch service: sun.nio.fs.WindowsWatchService
+             rule: TransitionRule[Overlap -03:00 to -04:00, SUNDAY on or after MARCH 22 at 00:00 WALL, standard offset -04:00]
+             rule: TransitionRule[Gap -04:00 to -03:00, SUNDAY on or after OCTOBER 1 at 00:00 WALL, standard offset -04:00]
+       transition: 2022-03-27T03:00:00Z (2022-03-26T23:00-04:00[America/Asuncion])
+            clock: 1635788732 2021-11-01T17:45:32.314705500Z
+     thread count: 13
+     peak threads: 13
+     user threads: 8
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-2d35aa39-c29d-4ec6-8ae9-87f76bcf4004,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[FileSystemWatchService,5,main]
+            Thread[Timer-0,5,main]
+            Thread[Thread-2,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[xml-server-8000-ThreadPool.PooledThread-0,5,xml-server-8000-ThreadPool-0]
+            Thread[Common-Cleaner,8,InnocuousThreadGroup]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      Q2: org.jpos.q2.Q2
+      logger.Q2: org.jpos.util.Logger
+      server.xml-server-8000: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      xml-server-8000: org.jpos.q2.iso.QServer
+  </info>
+</log>
+<log realm="xml-server-8000.server.session/0:0:0:0:0:0:0:1:50922" at="2021-11-01T14:46:15.482474100">
+  <session-start/>
+</log>
+<log realm="xml-server-8000/0:0:0:0:0:0:0:1:50922" at="2021-11-01T14:46:41.517332900" lifespan="26034ms">
+  <receive>
+    <peer-disconnect/>
+  </receive>
+</log>
+<log realm="xml-server-8000.server.session/0:0:0:0:0:0:0:1:50922" at="2021-11-01T14:46:41.517332900">
+  <session-end/>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:46:43.163004900">
+  <info>
+    modified deploy/00_logger.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:46:43.174668700">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\00_logger.xml
+  </trace>
+</log>
+</logger>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2021-11-01T14:48:00.696491">
+  <info>
+    created deploy/10_channel_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:48:00.712482700">
+  <info>
+    removed deploy/10_channel_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:48:00.755521">
+  <info>
+    created deploy/10_channel_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:48:00.767237800" lifespan="11ms">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\10_channel_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:48:00.768235800">
+  <info>
+    modified deploy/10_channel_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:48:03.317430400">
+  <info>
+    modified deploy/10_channel_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:48:03.338112300">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\10_channel_jpos.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:48:03.344246300">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\10_channel_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:48:03.344246300">
+  <info>
+    modified deploy/10_channel_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:48:03.344246300">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\10_channel_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:48:03.888229100">
+  <info>
+    modified deploy/10_channel_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:48:03.907003700">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\10_channel_jpos.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:48:03.916294800">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\10_channel_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:48:03.916294800">
+  <info>
+    modified deploy/10_channel_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:48:03.916294800">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\10_channel_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:49:03.758749600">
+  <info>
+    created deploy/20_mux_jpos.xm
+    removed deploy/20_mux_jpos.xm
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:49:03.802259300">
+  <info>
+    created deploy/20_mux_jpos.xm
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:49:03.806843100">
+  <info>
+    modified deploy/20_mux_jpos.xm
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:49:19.672075500" lifespan="6ms">
+  <info>
+    created deploy/20_mux_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:49:19.676722700">
+  <info>
+    removed deploy/20_mux_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:49:19.710144400">
+  <info>
+    created deploy/20_mux_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:49:19.717265800" lifespan="4ms">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\20_mux_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:49:19.717265800">
+  <info>
+    modified deploy/20_mux_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:49:23.529204600">
+  <info>
+    modified deploy/20_mux_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:49:23.529204600">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\20_mux_jpos.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:49:23.529204600">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\20_mux_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:49:23.544709700">
+  <info>
+    modified deploy/20_mux_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:49:23.544709700">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\20_mux_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:49:31.322226800" lifespan="1ms">
+  <info>
+    removed deploy/20_mux_jpos.xm
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:49:33.770598900">
+  <info>
+    modified deploy/20_mux_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:49:33.785958100">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\20_mux_jpos.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:49:33.785958100">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\20_mux_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:49:33.785958100">
+  <info>
+    modified deploy/20_mux_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:49:33.785958100">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\20_mux_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:51:41.864970600">
+  <info>
+    created deploy/30_txnmgr.xml
+    removed deploy/30_txnmgr.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:51:41.912277800">
+  <info>
+    created deploy/30_txnmgr.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:51:41.927731400" lifespan="9ms">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\30_txnmgr.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2021-11-01T14:51:41.933027200">
+  <info>
+    start Thread[Thread-11,5,main]
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:51:41.934899700" lifespan="1ms">
+  <info>
+    modified deploy/30_txnmgr.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2021-11-01T14:51:41.939127600" lifespan="6ms">
+  <info>
+    start Thread[Thread-10,5,main]
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:51:49.918815600">
+  <info>
+    modified deploy/30_txnmgr.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:51:49.940842600">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\30_txnmgr.xml
+  </trace>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2021-11-01T14:51:49.948055100">
+  <info>
+    stop Thread[txnmgr-1:idle,5,main], active sessions=1
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2021-11-01T14:51:49.949816" lifespan="1ms">
+  <info>
+    stop Thread[txnmgr-0:idle,5,main], active sessions=0
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:51:49.949816">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\30_txnmgr.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:51:49.955985100">
+  <info>
+    modified deploy/30_txnmgr.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:51:49.955985100">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\30_txnmgr.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2021-11-01T14:51:49.955985100">
+  <info>
+    start Thread[Thread-15,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2021-11-01T14:51:49.955985100">
+  <info>
+    start Thread[Thread-14,5,main]
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:52:00.455824400">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:52:02.514381700">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\99_sysmon.xml
+  </trace>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T14:52:02.514381700">
+  <info>
+    Stopping SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T14:52:02.514381700">
+  <info>
+               OS: Windows 10 (10.0)
+             Java: 11.0.13 (Oracle Corporation) AES-secure
+     process name: 664@NB25102102
+             host: NB25102102/192.170.171.44
+              cwd: C:\Desarrollo\jpos-2.1.1-SNAPSHOT
+       free space: 397,4 GiB
+          version: 2.1.1-SNAPSHOT (a4d66c5)
+         instance: 2d35aa39-c29d-4ec6-8ae9-87f76bcf4004
+           uptime: 00:06:30.743 (-1,000000)
+       processors: 8
+           drift : 0
+    memory(t/u/f): 252/17/234
+         encoding: windows-1252
+         timezone: America/Asuncion (hora de Paraguay) -03:00
+    watch service: sun.nio.fs.WindowsWatchService
+             rule: TransitionRule[Overlap -03:00 to -04:00, SUNDAY on or after MARCH 22 at 00:00 WALL, standard offset -04:00]
+             rule: TransitionRule[Gap -04:00 to -03:00, SUNDAY on or after OCTOBER 1 at 00:00 WALL, standard offset -04:00]
+       transition: 2022-03-27T03:00:00Z (2022-03-26T23:00-04:00[America/Asuncion])
+            clock: 1635789122 2021-11-01T17:52:02.514381700Z
+     thread count: 21
+     peak threads: 22
+     user threads: 15
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[SIGINT handler,9,system]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-2d35aa39-c29d-4ec6-8ae9-87f76bcf4004,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[FileSystemWatchService,5,main]
+            Thread[Timer-0,5,main]
+            Thread[Thread-2,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[channel-sender-jpos-send,5,main]
+            Thread[channel-receiver-jpos-receive,5,main]
+            Thread[Timer-2,5,main]
+            Thread[txnmgr-1:idle,5,main]
+            Thread[txnmgr-0:idle,5,main]
+            Thread[pool-7-thread-1,5,main]
+            Thread[Q2-ShutdownHook,5,main]
+            Thread[xml-server-8000-ThreadPool.PooledThread-0-idle,5,xml-server-8000-ThreadPool-0]
+            Thread[Common-Cleaner,8,InnocuousThreadGroup]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+        <key count='1'>jpos-channel.ready</key>
+        <key count='1'>$TAILLOCK.1604403817</key>
+        <key count='1'>$TAILLOCK.1110500094</key>
+         key-count: 3
+            gcinfo: 0,0
+      Q2: org.jpos.q2.Q2
+      jpos-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=1, last=0
+      channel.jpos-channel: org.jpos.iso.channel.XMLChannel
+      logger.Q2: org.jpos.util.Logger
+      server.xml-server-8000: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      mux.jPOS-AUTORESPONDER: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=true, last=0
+      xml-server-8000: org.jpos.q2.iso.QServer
+      tspace:org.jpos.transaction.TransactionManager@5fa14269: org.jpos.space.TSpace
+        <key count='1'>$TAIL</key>
+        <key count='1'>$HEAD</key>
+         key-count: 2
+            gcinfo: 0,0
+      tspace:org.jpos.transaction.TransactionManager@4230e2fe: org.jpos.space.TSpace
+        <key count='1'>$TAIL</key>
+        <key count='1'>$HEAD</key>
+         key-count: 2
+            gcinfo: 0,0
+      txnmgr: org.jpos.transaction.TransactionManager
+        in-transit=0/0, head=1, tail=1, paused=0, outstanding=0, active-sessions=2/128, tps=0, peak=0, avg=0,00
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:52:02.531071900" lifespan="16ms">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:52:02.531071900">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:52:02.531071900">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </info>
+</log>
+<log realm="xml-server-8000.pool" at="2021-11-01T14:52:02.531071900">
+  <queue closed/>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:52:02.531071900">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\30_txnmgr.xml
+  </trace>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2021-11-01T14:52:02.531071900">
+  <info>
+    stop Thread[txnmgr-0:idle,5,main], active sessions=1
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2021-11-01T14:52:02.531071900">
+  <info>
+    stop Thread[txnmgr-1:idle,5,main], active sessions=0
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:52:02.531071900">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\30_txnmgr.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:52:02.531071900">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\20_mux_jpos.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:52:02.546731300">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\20_mux_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:52:02.546731300">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\10_channel_jpos.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:52:02.546731300">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\10_channel_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:52:02.546731300">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\00_logger.xml
+  </trace>
+</log>
+</logger>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2021-11-01T14:52:14.850004200">
+  <info>
+    Q2 started, deployDir=C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:52:15.046490500" lifespan="196ms">
+  <version>
+    jPOS 2.1.1-SNAPSHOT master/a4d66c5 (2017-11-08 14:01:25 UTC) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:52:15.046490500">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\10_channel_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:52:15.062121300" lifespan="15ms">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\20_mux_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:52:15.077743700" lifespan="15ms">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\30_txnmgr.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:52:15.077743700">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T14:52:15.077743700">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2021-11-01T14:52:15.093375400">
+  <info>
+    start Thread[Thread-6,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2021-11-01T14:52:15.093375400">
+  <info>
+    start Thread[Thread-5,5,main]
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T14:52:15.093375400">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="xml-server-8000.server" at="2021-11-01T14:52:15.093375400">
+  <iso-server>
+    listening on port 8000
+  </iso-server>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T14:52:15.093375400">
+  <info>
+               OS: Windows 10 (10.0)
+             Java: 11.0.13 (Oracle Corporation) AES-secure
+     process name: 9872@NB25102102
+             host: NB25102102/192.170.171.44
+              cwd: C:\Desarrollo\jpos-2.1.1-SNAPSHOT
+       free space: 397,4 GiB
+          version: 2.1.1-SNAPSHOT (a4d66c5)
+         instance: 481f8e41-09ec-4e9c-8817-bf4b70433efb
+           uptime: 00:00:00.568 (-1,000000)
+       processors: 8
+           drift : 0
+    memory(t/u/f): 252/12/239
+         encoding: windows-1252
+         timezone: America/Asuncion (hora de Paraguay) -03:00
+    watch service: sun.nio.fs.WindowsWatchService
+             rule: TransitionRule[Overlap -03:00 to -04:00, SUNDAY on or after MARCH 22 at 00:00 WALL, standard offset -04:00]
+             rule: TransitionRule[Gap -04:00 to -03:00, SUNDAY on or after OCTOBER 1 at 00:00 WALL, standard offset -04:00]
+       transition: 2022-03-27T03:00:00Z (2022-03-26T23:00-04:00[America/Asuncion])
+            clock: 1635789135 2021-11-01T17:52:15.093375400Z
+     thread count: 19
+     peak threads: 19
+     user threads: 14
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-481f8e41-09ec-4e9c-8817-bf4b70433efb,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[FileSystemWatchService,5,main]
+            Thread[Timer-0,5,main]
+            Thread[channel-sender-jpos-send,5,main]
+            Thread[channel-receiver-jpos-receive,5,main]
+            Thread[Timer-1,5,main]
+            Thread[txnmgr-1:idle,5,main]
+            Thread[txnmgr-0:idle,5,main]
+            Thread[pool-4-thread-1,5,main]
+            Thread[Thread-8,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[xml-server-8000-ThreadPool.PooledThread-0,5,xml-server-8000-ThreadPool-0]
+            Thread[Common-Cleaner,8,InnocuousThreadGroup]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+        <key count='1'>$TAILLOCK.550555225</key>
+         key-count: 1
+            gcinfo: 0,0
+      Q2: org.jpos.q2.Q2
+      jpos-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      channel.jpos-channel: org.jpos.iso.channel.XMLChannel
+      logger.Q2: org.jpos.util.Logger
+      mux.jPOS-AUTORESPONDER: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=false, last=0
+      tspace:org.jpos.transaction.TransactionManager@20d0ce59: org.jpos.space.TSpace
+        <key count='1'>$TAIL</key>
+        <key count='1'>$HEAD</key>
+         key-count: 2
+            gcinfo: 0,0
+      server.xml-server-8000: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      xml-server-8000: org.jpos.q2.iso.QServer
+      txnmgr: org.jpos.transaction.TransactionManager
+        in-transit=0/0, head=1, tail=1, paused=0, outstanding=0, active-sessions=2/128, tps=0, peak=0, avg=0,00
+  </info>
+</log>
+<log realm="xml-server-8000.server.session/0:0:0:0:0:0:0:1:50987" at="2021-11-01T14:52:51.855617">
+  <session-start/>
+</log>
+<log realm="xml-server-8000/0:0:0:0:0:0:0:1:50987" at="2021-11-01T14:53:36.351346700" lifespan="44495ms">
+  <receive>
+    <iso-exception>
+      org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 147; The markup in the document following the root element must be well-formed.
+      org.jpos.iso.ISOException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 147; The markup in the document following the root element must be well-formed.
+	at org.jpos.iso.packager.XMLPackager.unpack(XMLPackager.java:137)
+	at org.jpos.iso.ISOMsg.unpack(ISOMsg.java:468)
+	at org.jpos.iso.BaseChannel.unpack(BaseChannel.java:965)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:735)
+	at org.jpos.iso.ISOServer$Session.run(ISOServer.java:344)
+	at org.jpos.util.ThreadPool$PooledThread.run(ThreadPool.java:76)
+    </iso-exception>
+    --- data ---
+    0000  3C 69 73 6F 6D 73 67 3E  20 3C 66 69 65 6C 64 20  <isomsg> <field 
+0010  69 64 3D 22 30 22 20 76  61 6C 75 65 3D 22 30 38  id="0" value="08
+0020  30 30 22 20 2F 3E 20 3C  66 69 65 6C 64 20 69 64  00" /> <field id
+0030  3D 22 31 31 22 20 76 61  6C 75 65 3D 22 30 30 30  ="11" value="000
+0040  30 30 31 22 20 2F 3E 20  3C 66 69 65 6C 64 20 69  001" /> <field i
+0050  64 3D 22 34 31 22 20 76  61 6C 75 65 3D 22 30 30  d="41" value="00
+0060  30 30 30 30 30 31 22 20  2F 3E 20 3C 66 69 65 6C  000001" /> <fiel
+0070  64 20 69 64 3D 22 37 30  22 20 76 61 6C 75 65 3D  d id="70" value=
+0080  22 33 30 31 22 20 2F 3E  3C 2F 69 73 6F 6D 73 67  "301" /></isomsg
+0090  3E 3C 69 73 6F 6D 73 67  3E 20 3C 66 69 65 6C 64  ><isomsg> <field
+00a0  20 69 64 3D 22 30 22 20  76 61 6C 75 65 3D 22 30   id="0" value="0
+00b0  38 30 30 22 20 2F 3E 20  3C 66 69 65 6C 64 20 69  800" /> <field i
+00c0  64 3D 22 31 31 22 20 76  61 6C 75 65 3D 22 30 30  d="11" value="00
+00d0  30 30 30 31 22 20 2F 3E  20 3C 66 69 65 6C 64 20  0001" /> <field 
+00e0  69 64 3D 22 34 31 22 20  76 61 6C 75 65 3D 22 30  id="41" value="0
+00f0  30 30 30 30 30 30 31 22  20 2F 3E 20 3C 66 69 65  0000001" /> <fie
+0100  6C 64 20 69 64 3D 22 37  30 22 20 76 61 6C 75 65  ld id="70" value
+0110  3D 22 33 30 31 22 20 2F  3E 3C 2F 69 73 6F 6D 73  ="301" /></isoms
+0120  67 3E                                             g>
+
+  </receive>
+</log>
+<log realm="xml-server-8000.server.session/0:0:0:0:0:0:0:1:50987" at="2021-11-01T14:53:36.366881600">
+  <session-error>
+    <iso-exception>
+      org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 147; The markup in the document following the root element must be well-formed.
+      org.jpos.iso.ISOException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 147; The markup in the document following the root element must be well-formed.
+	at org.jpos.iso.packager.XMLPackager.unpack(XMLPackager.java:137)
+	at org.jpos.iso.ISOMsg.unpack(ISOMsg.java:468)
+	at org.jpos.iso.BaseChannel.unpack(BaseChannel.java:965)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:735)
+	at org.jpos.iso.ISOServer$Session.run(ISOServer.java:344)
+	at org.jpos.util.ThreadPool$PooledThread.run(ThreadPool.java:76)
+    </iso-exception>
+  </session-error>
+</log>
+<log realm="xml-server-8000.server.session/0:0:0:0:0:0:0:1:50987" at="2021-11-01T14:53:36.366881600">
+  <session-end/>
+</log>
+<log realm="xml-server-8000.server.session/0:0:0:0:0:0:0:1:51009" at="2021-11-01T14:54:04.182533">
+  <session-start/>
+</log>
+<log realm="xml-server-8000/0:0:0:0:0:0:0:1:51009" at="2021-11-01T14:54:15.698851100" lifespan="11516ms">
+  <receive>
+    <iso-exception>
+      org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 146; Content is not allowed in trailing section.
+      org.jpos.iso.ISOException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 146; Content is not allowed in trailing section.
+	at org.jpos.iso.packager.XMLPackager.unpack(XMLPackager.java:137)
+	at org.jpos.iso.ISOMsg.unpack(ISOMsg.java:468)
+	at org.jpos.iso.BaseChannel.unpack(BaseChannel.java:965)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:735)
+	at org.jpos.iso.ISOServer$Session.run(ISOServer.java:344)
+	at org.jpos.util.ThreadPool$PooledThread.run(ThreadPool.java:76)
+    </iso-exception>
+    --- data ---
+    0000  3C 69 73 6F 6D 73 67 3E  20 3C 66 69 65 6C 64 20  <isomsg> <field 
+0010  69 64 3D 22 30 22 20 76  61 6C 75 65 3D 22 30 38  id="0" value="08
+0020  30 30 22 20 2F 3E 20 3C  66 69 65 6C 64 20 69 64  00" /> <field id
+0030  3D 22 31 31 22 20 76 61  6C 75 65 3D 22 30 30 30  ="11" value="000
+0040  30 30 31 22 20 2F 3E 20  3C 66 69 65 6C 64 20 69  001" /> <field i
+0050  64 3D 22 34 31 22 20 76  61 6C 75 65 3D 22 30 30  d="41" value="00
+0060  30 30 30 30 30 31 22 20  2F 3E 20 3C 66 69 65 6C  000001" /> <fiel
+0070  64 20 69 64 3D 22 37 30  22 20 76 61 6C 75 65 3D  d id="70" value=
+0080  22 33 30 31 22 20 2F 3E  3C 2F 69 73 6F 6D 73 67  "301" /></isomsg
+0090  3E 16 16                                          >..
+
+  </receive>
+</log>
+<log realm="xml-server-8000.server.session/0:0:0:0:0:0:0:1:51009" at="2021-11-01T14:54:15.714353100">
+  <session-error>
+    <iso-exception>
+      org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 146; Content is not allowed in trailing section.
+      org.jpos.iso.ISOException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 146; Content is not allowed in trailing section.
+	at org.jpos.iso.packager.XMLPackager.unpack(XMLPackager.java:137)
+	at org.jpos.iso.ISOMsg.unpack(ISOMsg.java:468)
+	at org.jpos.iso.BaseChannel.unpack(BaseChannel.java:965)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:735)
+	at org.jpos.iso.ISOServer$Session.run(ISOServer.java:344)
+	at org.jpos.util.ThreadPool$PooledThread.run(ThreadPool.java:76)
+    </iso-exception>
+  </session-error>
+</log>
+<log realm="xml-server-8000.server.session/0:0:0:0:0:0:0:1:51009" at="2021-11-01T14:54:15.727023400">
+  <session-end/>
+</log>
+<log realm="xml-server-8000.server.session/0:0:0:0:0:0:0:1:51020" at="2021-11-01T14:55:38.713756600">
+  <session-start/>
+</log>
+<log realm="xml-server-8000/0:0:0:0:0:0:0:1:51020" at="2021-11-01T14:55:44.797244900" lifespan="6083ms">
+  <receive>
+    <iso-exception>
+      org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 147; The markup in the document following the root element must be well-formed.
+      org.jpos.iso.ISOException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 147; The markup in the document following the root element must be well-formed.
+	at org.jpos.iso.packager.XMLPackager.unpack(XMLPackager.java:137)
+	at org.jpos.iso.ISOMsg.unpack(ISOMsg.java:468)
+	at org.jpos.iso.BaseChannel.unpack(BaseChannel.java:965)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:735)
+	at org.jpos.iso.ISOServer$Session.run(ISOServer.java:344)
+	at org.jpos.util.ThreadPool$PooledThread.run(ThreadPool.java:76)
+    </iso-exception>
+    --- data ---
+    0000  3C 69 73 6F 6D 73 67 3E  20 3C 66 69 65 6C 64 20  <isomsg> <field 
+0010  69 64 3D 22 30 22 20 76  61 6C 75 65 3D 22 30 38  id="0" value="08
+0020  30 30 22 20 2F 3E 20 3C  66 69 65 6C 64 20 69 64  00" /> <field id
+0030  3D 22 31 31 22 20 76 61  6C 75 65 3D 22 30 30 30  ="11" value="000
+0040  30 30 31 22 20 2F 3E 20  3C 66 69 65 6C 64 20 69  001" /> <field i
+0050  64 3D 22 34 31 22 20 76  61 6C 75 65 3D 22 30 30  d="41" value="00
+0060  30 30 30 30 30 31 22 20  2F 3E 20 3C 66 69 65 6C  000001" /> <fiel
+0070  64 20 69 64 3D 22 37 30  22 20 76 61 6C 75 65 3D  d id="70" value=
+0080  22 33 30 31 22 20 2F 3E  3C 2F 69 73 6F 6D 73 67  "301" /></isomsg
+0090  3E 3C 69 73 6F 6D 73 67  3E 20 3C 66 69 65 6C 64  ><isomsg> <field
+00a0  20 69 64 3D 22 30 22 20  76 61 6C 75 65 3D 22 30   id="0" value="0
+00b0  38 30 30 22 20 2F 3E 20  3C 66 69 65 6C 64 20 69  800" /> <field i
+00c0  64 3D 22 31 31 22 20 76  61 6C 75 65 3D 22 30 30  d="11" value="00
+00d0  30 30 30 31 22 20 2F 3E  20 3C 66 69 65 6C 64 20  0001" /> <field 
+00e0  69 64 3D 22 34 31 22 20  76 61 6C 75 65 3D 22 30  id="41" value="0
+00f0  30 30 30 30 30 30 31 22  20 2F 3E 20 3C 66 69 65  0000001" /> <fie
+0100  6C 64 20 69 64 3D 22 37  30 22 20 76 61 6C 75 65  ld id="70" value
+0110  3D 22 33 30 31 22 20 2F  3E 3C 2F 69 73 6F 6D 73  ="301" /></isoms
+0120  67 3E                                             g>
+
+  </receive>
+</log>
+<log realm="xml-server-8000.server.session/0:0:0:0:0:0:0:1:51020" at="2021-11-01T14:55:44.812044800">
+  <session-error>
+    <iso-exception>
+      org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 147; The markup in the document following the root element must be well-formed.
+      org.jpos.iso.ISOException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 147; The markup in the document following the root element must be well-formed.
+	at org.jpos.iso.packager.XMLPackager.unpack(XMLPackager.java:137)
+	at org.jpos.iso.ISOMsg.unpack(ISOMsg.java:468)
+	at org.jpos.iso.BaseChannel.unpack(BaseChannel.java:965)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:735)
+	at org.jpos.iso.ISOServer$Session.run(ISOServer.java:344)
+	at org.jpos.util.ThreadPool$PooledThread.run(ThreadPool.java:76)
+    </iso-exception>
+  </session-error>
+</log>
+<log realm="xml-server-8000.server.session/0:0:0:0:0:0:0:1:51020" at="2021-11-01T14:55:44.821315800">
+  <session-end/>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2021-11-01T14:57:15.268762100">
+  <warn>
+    channel-receiver-jpos-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="xml-server-8000.server.session/0:0:0:0:0:0:0:1:51183" at="2021-11-01T14:57:51.569096200">
+  <session-start/>
+</log>
+<log realm="xml-server-8000/0:0:0:0:0:0:0:1:51183" at="2021-11-01T14:58:06.458062800" lifespan="14873ms">
+  <receive>
+    <peer-disconnect/>
+  </receive>
+</log>
+<log realm="xml-server-8000.server.session/0:0:0:0:0:0:0:1:51183" at="2021-11-01T14:58:06.463526900">
+  <session-end/>
+</log>
+<log realm="xml-server-8000.server.session/0:0:0:0:0:0:0:1:51200" at="2021-11-01T14:58:29.822234200">
+  <session-start/>
+</log>
+<log realm="xml-server-8000/0:0:0:0:0:0:0:1:51200" at="2021-11-01T14:58:41.455178300" lifespan="11632ms">
+  <receive>
+    <iso-exception>
+      org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+      org.jpos.iso.ISOException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+	at org.jpos.iso.packager.XMLPackager.unpack(XMLPackager.java:137)
+	at org.jpos.iso.ISOMsg.unpack(ISOMsg.java:468)
+	at org.jpos.iso.BaseChannel.unpack(BaseChannel.java:965)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:735)
+	at org.jpos.iso.ISOServer$Session.run(ISOServer.java:344)
+	at org.jpos.util.ThreadPool$PooledThread.run(ThreadPool.java:76)
+    </iso-exception>
+    --- data ---
+    0000  6C 61 6B 6D 73 64 6C 66  6D 61 73 35 66 31 61 31  lakmsdlfmas5f1a1
+0010  64 73 35 33 66 31 61 35  33 31 73 64 66 7D 61 6E  ds53f1a531sdf}an
+0020  73 6B 64 6A 6E 66 6B 61  6E 73 64 66 3C 69 73 6F  skdjnfkansdf<iso
+0030  6D 73 67 3E 20 3C 66 69  65 6C 64 20 69 64 3D 22  msg> <field id="
+0040  30 22 20 76 61 6C 75 65  3D 22 30 38 30 30 22 20  0" value="0800" 
+0050  2F 3E 20 3C 66 69 65 6C  64 20 69 64 3D 22 31 31  /> <field id="11
+0060  22 20 76 61 6C 75 65 3D  22 30 30 30 30 30 31 22  " value="000001"
+0070  20 2F 3E 20 3C 66 69 65  6C 64 20 69 64 3D 22 34   /> <field id="4
+0080  31 22 20 76 61 6C 75 65  3D 22 30 30 30 30 30 30  1" value="000000
+0090  30 31 22 20 2F 3E 20 3C  66 69 65 6C 64 20 69 64  01" /> <field id
+00a0  3D 22 37 30 22 20 76 61  6C 75 65 3D 22 33 30 31  ="70" value="301
+00b0  22 20 2F 3E 3C 2F 69 73  6F 6D 73 67 3E           " /></isomsg>
+
+  </receive>
+</log>
+<log realm="xml-server-8000.server.session/0:0:0:0:0:0:0:1:51200" at="2021-11-01T14:58:41.470690800">
+  <session-error>
+    <iso-exception>
+      org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+      org.jpos.iso.ISOException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+	at org.jpos.iso.packager.XMLPackager.unpack(XMLPackager.java:137)
+	at org.jpos.iso.ISOMsg.unpack(ISOMsg.java:468)
+	at org.jpos.iso.BaseChannel.unpack(BaseChannel.java:965)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:735)
+	at org.jpos.iso.ISOServer$Session.run(ISOServer.java:344)
+	at org.jpos.util.ThreadPool$PooledThread.run(ThreadPool.java:76)
+    </iso-exception>
+  </session-error>
+</log>
+<log realm="xml-server-8000.server.session/0:0:0:0:0:0:0:1:51200" at="2021-11-01T14:58:41.470690800">
+  <session-end/>
+</log>
+<log realm="xml-server-8000.server.session/0:0:0:0:0:0:0:1:51205" at="2021-11-01T14:59:09.183902500">
+  <session-start/>
+</log>
+<log realm="xml-server-8000/0:0:0:0:0:0:0:1:51205" at="2021-11-01T14:59:17.248453500" lifespan="8064ms">
+  <receive>
+    <iso-exception>
+      org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 147; The markup in the document following the root element must be well-formed.
+      org.jpos.iso.ISOException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 147; The markup in the document following the root element must be well-formed.
+	at org.jpos.iso.packager.XMLPackager.unpack(XMLPackager.java:137)
+	at org.jpos.iso.ISOMsg.unpack(ISOMsg.java:468)
+	at org.jpos.iso.BaseChannel.unpack(BaseChannel.java:965)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:735)
+	at org.jpos.iso.ISOServer$Session.run(ISOServer.java:344)
+	at org.jpos.util.ThreadPool$PooledThread.run(ThreadPool.java:76)
+    </iso-exception>
+    --- data ---
+    0000  3C 69 73 6F 6D 73 67 3E  20 3C 66 69 65 6C 64 20  <isomsg> <field 
+0010  69 64 3D 22 30 22 20 76  61 6C 75 65 3D 22 30 38  id="0" value="08
+0020  30 30 22 20 2F 3E 20 3C  66 69 65 6C 64 20 69 64  00" /> <field id
+0030  3D 22 31 31 22 20 76 61  6C 75 65 3D 22 30 30 30  ="11" value="000
+0040  30 30 31 22 20 2F 3E 20  3C 66 69 65 6C 64 20 69  001" /> <field i
+0050  64 3D 22 34 31 22 20 76  61 6C 75 65 3D 22 30 30  d="41" value="00
+0060  30 30 30 30 30 31 22 20  2F 3E 20 3C 66 69 65 6C  000001" /> <fiel
+0070  64 20 69 64 3D 22 37 30  22 20 76 61 6C 75 65 3D  d id="70" value=
+0080  22 33 30 31 22 20 2F 3E  3C 2F 69 73 6F 6D 73 67  "301" /></isomsg
+0090  3E 3C 69 73 6F 6D 73 67  3E 20 3C 66 69 65 6C 64  ><isomsg> <field
+00a0  20 69 64 3D 22 30 22 20  76 61 6C 75 65 3D 22 30   id="0" value="0
+00b0  38 30 30 22 20 2F 3E 20  3C 66 69 65 6C 64 20 69  800" /> <field i
+00c0  64 3D 22 31 31 22 20 76  61 6C 75 65 3D 22 30 30  d="11" value="00
+00d0  30 30 30 31 22 20 2F 3E  20 3C 66 69 65 6C 64 20  0001" /> <field 
+00e0  69 64 3D 22 34 31 22 20  76 61 6C 75 65 3D 22 30  id="41" value="0
+00f0  30 30 30 30 30 30 31 22  20 2F 3E 20 3C 66 69 65  0000001" /> <fie
+0100  6C 64 20 69 64 3D 22 37  30 22 20 76 61 6C 75 65  ld id="70" value
+0110  3D 22 33 30 31 22 20 2F  3E 3C 2F 69 73 6F 6D 73  ="301" /></isoms
+0120  67 3E                                             g>
+
+  </receive>
+</log>
+<log realm="xml-server-8000.server.session/0:0:0:0:0:0:0:1:51205" at="2021-11-01T14:59:17.263962400">
+  <session-error>
+    <iso-exception>
+      org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 147; The markup in the document following the root element must be well-formed.
+      org.jpos.iso.ISOException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 147; The markup in the document following the root element must be well-formed.
+	at org.jpos.iso.packager.XMLPackager.unpack(XMLPackager.java:137)
+	at org.jpos.iso.ISOMsg.unpack(ISOMsg.java:468)
+	at org.jpos.iso.BaseChannel.unpack(BaseChannel.java:965)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:735)
+	at org.jpos.iso.ISOServer$Session.run(ISOServer.java:344)
+	at org.jpos.util.ThreadPool$PooledThread.run(ThreadPool.java:76)
+    </iso-exception>
+  </session-error>
+</log>
+<log realm="xml-server-8000.server.session/0:0:0:0:0:0:0:1:51205" at="2021-11-01T14:59:17.273999100">
+  <session-end/>
+</log>
+<log realm="Q2.system" at="2021-11-01T15:01:04.716180500">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T15:01:06.654602200">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\99_sysmon.xml
+  </trace>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T15:01:06.654602200">
+  <info>
+    Stopping SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T15:01:06.654602200">
+  <info>
+               OS: Windows 10 (10.0)
+             Java: 11.0.13 (Oracle Corporation) AES-secure
+     process name: 9872@NB25102102
+             host: NB25102102/192.170.171.44
+              cwd: C:\Desarrollo\jpos-2.1.1-SNAPSHOT
+       free space: 397,2 GiB
+          version: 2.1.1-SNAPSHOT (a4d66c5)
+         instance: 481f8e41-09ec-4e9c-8817-bf4b70433efb
+           uptime: 00:08:52.129 (-1,000000)
+       processors: 8
+           drift : 0
+    memory(t/u/f): 252/16/235
+         encoding: windows-1252
+         timezone: America/Asuncion (hora de Paraguay) -03:00
+    watch service: sun.nio.fs.WindowsWatchService
+             rule: TransitionRule[Overlap -03:00 to -04:00, SUNDAY on or after MARCH 22 at 00:00 WALL, standard offset -04:00]
+             rule: TransitionRule[Gap -04:00 to -03:00, SUNDAY on or after OCTOBER 1 at 00:00 WALL, standard offset -04:00]
+       transition: 2022-03-27T03:00:00Z (2022-03-26T23:00-04:00[America/Asuncion])
+            clock: 1635789666 2021-11-01T18:01:06.654602200Z
+     thread count: 21
+     peak threads: 22
+     user threads: 15
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[SIGINT handler,9,system]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-481f8e41-09ec-4e9c-8817-bf4b70433efb,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[FileSystemWatchService,5,main]
+            Thread[Timer-0,5,main]
+            Thread[channel-sender-jpos-send,5,main]
+            Thread[channel-receiver-jpos-receive,5,main]
+            Thread[Timer-1,5,main]
+            Thread[txnmgr-1:idle,5,main]
+            Thread[txnmgr-0:idle,5,main]
+            Thread[pool-4-thread-1,5,main]
+            Thread[Thread-8,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[Q2-ShutdownHook,5,main]
+            Thread[xml-server-8000-ThreadPool.PooledThread-0-idle,5,xml-server-8000-ThreadPool-0]
+            Thread[Common-Cleaner,8,InnocuousThreadGroup]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+        <key count='1'>$TAILLOCK.550555225</key>
+        <key count='1'>jpos-channel.ready</key>
+         key-count: 2
+            gcinfo: 0,0
+      Q2: org.jpos.q2.Q2
+      jpos-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=2, last=0
+      channel.jpos-channel: org.jpos.iso.channel.XMLChannel
+      logger.Q2: org.jpos.util.Logger
+      mux.jPOS-AUTORESPONDER: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=true, last=0
+      tspace:org.jpos.transaction.TransactionManager@20d0ce59: org.jpos.space.TSpace
+        <key count='1'>$TAIL</key>
+        <key count='1'>$HEAD</key>
+         key-count: 2
+            gcinfo: 0,0
+      server.xml-server-8000: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      xml-server-8000: org.jpos.q2.iso.QServer
+      txnmgr: org.jpos.transaction.TransactionManager
+        in-transit=0/0, head=1, tail=1, paused=0, outstanding=0, active-sessions=2/128, tps=0, peak=0, avg=0,00
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T15:01:06.670131200" lifespan="15ms">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T15:01:06.670131200">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2021-11-01T15:01:06.670131200">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </info>
+</log>
+<log realm="xml-server-8000.pool" at="2021-11-01T15:01:06.670131200">
+  <queue closed/>
+</log>
+<log realm="Q2.system" at="2021-11-01T15:01:06.670131200">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\30_txnmgr.xml
+  </trace>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2021-11-01T15:01:06.670131200">
+  <info>
+    stop Thread[txnmgr-0:idle,5,main], active sessions=1
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2021-11-01T15:01:06.670131200">
+  <info>
+    stop Thread[txnmgr-1:idle,5,main], active sessions=0
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T15:01:06.670131200">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\30_txnmgr.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T15:01:06.670131200">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\20_mux_jpos.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2021-11-01T15:01:06.685732600">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\20_mux_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T15:01:06.685732600">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\10_channel_jpos.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2021-11-01T15:01:06.685732600">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\10_channel_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T15:01:06.685732600">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\00_logger.xml
+  </trace>
+</log>
+</logger>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2021-11-01T15:01:11.965146200">
+  <info>
+    Q2 started, deployDir=C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T15:01:12.160035400" lifespan="194ms">
+  <version>
+    jPOS 2.1.1-SNAPSHOT master/a4d66c5 (2017-11-08 14:01:25 UTC) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2021-11-01T15:01:12.176242" lifespan="16ms">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\10_channel_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T15:01:12.187388" lifespan="10ms">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\20_mux_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T15:01:12.187388">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\30_txnmgr.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T15:01:12.187388">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T15:01:12.203068">
+  <info>
+    deploy: C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2021-11-01T15:01:12.218738400" lifespan="15ms">
+  <info>
+    start Thread[Thread-5,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2021-11-01T15:01:12.218821500">
+  <info>
+    start Thread[Thread-6,5,main]
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T15:01:12.218821500">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="xml-server-8000.server" at="2021-11-01T15:01:12.218821500">
+  <iso-server>
+    listening on port 8000
+  </iso-server>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T15:01:12.218821500">
+  <info>
+               OS: Windows 10 (10.0)
+             Java: 11.0.13 (Oracle Corporation) AES-secure
+     process name: 17960@NB25102102
+             host: NB25102102/192.170.171.44
+              cwd: C:\Desarrollo\jpos-2.1.1-SNAPSHOT
+       free space: 397,2 GiB
+          version: 2.1.1-SNAPSHOT (a4d66c5)
+         instance: a302e703-b7b3-4e0e-8b00-d703d1f892f0
+           uptime: 00:00:00.616 (-1,000000)
+       processors: 8
+           drift : 0
+    memory(t/u/f): 252/16/235
+         encoding: windows-1252
+         timezone: America/Asuncion (hora de Paraguay) -03:00
+    watch service: sun.nio.fs.WindowsWatchService
+             rule: TransitionRule[Overlap -03:00 to -04:00, SUNDAY on or after MARCH 22 at 00:00 WALL, standard offset -04:00]
+             rule: TransitionRule[Gap -04:00 to -03:00, SUNDAY on or after OCTOBER 1 at 00:00 WALL, standard offset -04:00]
+       transition: 2022-03-27T03:00:00Z (2022-03-26T23:00-04:00[America/Asuncion])
+            clock: 1635789672 2021-11-01T18:01:12.218821500Z
+     thread count: 19
+     peak threads: 19
+     user threads: 14
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-a302e703-b7b3-4e0e-8b00-d703d1f892f0,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[FileSystemWatchService,5,main]
+            Thread[Timer-0,5,main]
+            Thread[channel-sender-jpos-send,5,main]
+            Thread[channel-receiver-jpos-receive,5,main]
+            Thread[Timer-1,5,main]
+            Thread[txnmgr-0:idle,5,main]
+            Thread[txnmgr-1:idle,5,main]
+            Thread[pool-4-thread-1,5,main]
+            Thread[Thread-8,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[xml-server-8000-ThreadPool.PooledThread-0,5,xml-server-8000-ThreadPool-0]
+            Thread[Common-Cleaner,8,InnocuousThreadGroup]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+        <key count='1'>$TAILLOCK.550555225</key>
+         key-count: 1
+            gcinfo: 0,0
+      Q2: org.jpos.q2.Q2
+      jpos-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      channel.jpos-channel: org.jpos.iso.channel.XMLChannel
+      logger.Q2: org.jpos.util.Logger
+      mux.jPOS-AUTORESPONDER: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=false, last=0
+      tspace:org.jpos.transaction.TransactionManager@20d0ce59: org.jpos.space.TSpace
+        <key count='1'>$TAIL</key>
+        <key count='1'>$HEAD</key>
+         key-count: 2
+            gcinfo: 0,0
+      server.xml-server-8000: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      xml-server-8000: org.jpos.q2.iso.QServer
+      txnmgr: org.jpos.transaction.TransactionManager
+        in-transit=0/0, head=1, tail=1, paused=0, outstanding=0, active-sessions=2/128, tps=0, peak=0, avg=0,00
+  </info>
+</log>
+<log realm="xml-server-8000.server.session/0:0:0:0:0:0:0:1:51238" at="2021-11-01T15:01:29.007231500">
+  <session-start/>
+</log>
+<log realm="xml-server-8000/0:0:0:0:0:0:0:1:51238" at="2021-11-01T15:01:34.271958200" lifespan="5264ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.XMLPackager -->
+      <field id="0" value="0800"/>
+      <field id="11" value="000001"/>
+      <field id="41" value="00000001"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="xml-server-8000/0:0:0:0:0:0:0:1:51238" at="2021-11-01T15:01:34.456347800">
+  <send>
+    <isomsg>
+      <!-- org.jpos.iso.packager.XMLPackager -->
+      <field id="0" value="0810"/>
+      <field id="11" value="000001"/>
+      <field id="37" value="9262"/>
+      <field id="38" value="488573"/>
+      <field id="39" value="00"/>
+      <field id="41" value="00000001"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2021-11-01T15:01:34.475844" lifespan="203ms">
+  <commit>
+    txnmgr-0:idle:1
+    <context>
+      TIMESTAMP: Mon Nov 01 15:01:34 PYST 2021
+      SOURCE: org.jpos.iso.channel.XMLChannel@1f9ecd61
+      REQUEST: 
+       <isomsg>
+         <!-- org.jpos.iso.packager.XMLPackager -->
+         <field id="0" value="0800"/>
+         <field id="11" value="000001"/>
+         <field id="41" value="00000001"/>
+         <field id="70" value="301"/>
+       </isomsg>
+      
+      DESTINATION: jPOS-AUTORESPONDER
+      RESULT: 
+       <result/>
+      
+      :paused_transaction: 
+       id: 1
+      
+      RESPONSE: 
+       <isomsg>
+         <!-- org.jpos.iso.packager.XMLPackager -->
+         <field id="0" value="0810"/>
+         <field id="11" value="000001"/>
+         <field id="37" value="9262"/>
+         <field id="38" value="488573"/>
+         <field id="39" value="00"/>
+         <field id="41" value="00000001"/>
+         <field id="70" value="301"/>
+       </isomsg>
+      
+    </context>
+            prepare: o.j.t.p.QueryHost PREPARED PAUSE READONLY NO_JOIN
+            prepare: o.j.t.p.SendResponse PREPARED READONLY
+             commit: o.j.t.p.SendResponse
+     in-transit=0, head=2, tail=2, paused=0, outstanding=0, active-sessions=2/128, tps=0, peak=0, avg=0,00, elapsed=194ms
+    <profiler>
+      prepare: o.j.t.p.QueryHost [1.8/1.8]
+      resume [177.7/179.6]
+      prepare: o.j.t.p.SendResponse [0.7/180.4]
+       commit: o.j.t.p.SendResponse [14.2/194.6]
+      end [2.3/197.0]
+    </profiler>
+  </commit>
+</log>
+<log realm="xml-server-8000/0:0:0:0:0:0:0:1:51238" at="2021-11-01T15:04:34.287146400" lifespan="180015ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="xml-server-8000.server.session/0:0:0:0:0:0:0:1:51238" at="2021-11-01T15:04:34.287146400">
+  <session-end/>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2021-11-01T15:06:34.467561500">
+  <warn>
+    channel-receiver-jpos-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2021-11-01T15:11:45.443021400">
+  <warn>
+    channel-receiver-jpos-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="Q2.system" at="2021-11-01T15:11:48.553911">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T15:11:49.286998100">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\99_sysmon.xml
+  </trace>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T15:11:49.286998100">
+  <info>
+    Stopping SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2021-11-01T15:11:49.286998100">
+  <info>
+               OS: Windows 10 (10.0)
+             Java: 11.0.13 (Oracle Corporation) AES-secure
+     process name: 17960@NB25102102
+             host: NB25102102/192.170.171.44
+              cwd: C:\Desarrollo\jpos-2.1.1-SNAPSHOT
+       free space: 397,2 GiB
+          version: 2.1.1-SNAPSHOT (a4d66c5)
+         instance: a302e703-b7b3-4e0e-8b00-d703d1f892f0
+           uptime: 00:10:37.700 (-1,000000)
+       processors: 8
+           drift : 0
+    memory(t/u/f): 252/20/231
+         encoding: windows-1252
+         timezone: America/Asuncion (hora de Paraguay) -03:00
+    watch service: sun.nio.fs.WindowsWatchService
+             rule: TransitionRule[Overlap -03:00 to -04:00, SUNDAY on or after MARCH 22 at 00:00 WALL, standard offset -04:00]
+             rule: TransitionRule[Gap -04:00 to -03:00, SUNDAY on or after OCTOBER 1 at 00:00 WALL, standard offset -04:00]
+       transition: 2022-03-27T03:00:00Z (2022-03-26T23:00-04:00[America/Asuncion])
+            clock: 1635790309 2021-11-01T18:11:49.286998100Z
+     thread count: 22
+     peak threads: 23
+     user threads: 16
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[SIGINT handler,9,system]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-a302e703-b7b3-4e0e-8b00-d703d1f892f0,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[FileSystemWatchService,5,main]
+            Thread[Timer-0,5,main]
+            Thread[channel-sender-jpos-send,5,main]
+            Thread[channel-receiver-jpos-receive,5,main]
+            Thread[Timer-1,5,main]
+            Thread[txnmgr-0:idle,5,main]
+            Thread[txnmgr-1:idle,5,main]
+            Thread[pool-4-thread-1,5,main]
+            Thread[Thread-8,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[pool-5-thread-1,5,main]
+            Thread[Q2-ShutdownHook,5,main]
+            Thread[xml-server-8000-ThreadPool.PooledThread-0-idle,5,xml-server-8000-ThreadPool-0]
+            Thread[Common-Cleaner,8,InnocuousThreadGroup]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+        <key count='1'>$TAILLOCK.550555225</key>
+        <key count='1'>jpos-channel.reconnect</key>
+         key-count: 2
+            gcinfo: 1,0
+      Q2: org.jpos.q2.Q2
+      jpos-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=1, rx=1, connects=2, last=1635789694456, idle=614846ms
+      channel.jpos-channel: org.jpos.iso.channel.XMLChannel
+      logger.Q2: org.jpos.util.Logger
+      mux.jPOS-AUTORESPONDER: org.jpos.q2.iso.QMUX
+        tx=1, rx=1, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=false, last=1635789694456, idle=614846ms
+        all min=185, max=185, mean=185,0000 stddev=0,0000 90%=185, 99%=185, 99.9%=185, 99.99%=185 tot=1 size=10752
+        ok min=185, max=185, mean=185,0000 stddev=0,0000 90%=185, 99%=185, 99.9%=185, 99.99%=185 tot=1 size=10752
+      tspace:org.jpos.transaction.TransactionManager@20d0ce59: org.jpos.space.TSpace
+        <key count='1'>$TAIL</key>
+        <key count='1'>$HEAD</key>
+         key-count: 2
+            gcinfo: 0,0
+      server.xml-server-8000: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=1635789694271, idle=615031ms
+      xml-server-8000: org.jpos.q2.iso.QServer
+      txnmgr: org.jpos.transaction.TransactionManager
+        in-transit=0/0, head=2, tail=2, paused=0, outstanding=0, active-sessions=2/128, tps=0, peak=1, avg=0,00
+        o.j.t.p.QueryHost-prepare min=9223372036854775807, max=0, mean=0,0000 stddev=0,0000 90%=0, 99%=0, 99.9%=0, 99.99%=0 tot=1 size=10752
+        o.j.t.p.QueryHost-resume min=177, max=177, mean=177,0000 stddev=0,0000 90%=177, 99%=177, 99.9%=177, 99.99%=177 tot=1 size=10752
+        o.j.t.p.SendResponse-commit min=18, max=18, mean=18,0000 stddev=0,0000 90%=18, 99%=18, 99.9%=18, 99.99%=18 tot=1 size=10752
+        o.j.t.p.SendResponse-prepare min=9223372036854775807, max=0, mean=0,0000 stddev=0,0000 90%=0, 99%=0, 99.9%=0, 99.99%=0 tot=1 size=10752
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T15:11:49.329744600" lifespan="42ms">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T15:11:49.340266400">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2021-11-01T15:11:49.340266400">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\50_xml_server.xml
+  </info>
+</log>
+<log realm="xml-server-8000.pool" at="2021-11-01T15:11:49.340266400">
+  <queue closed/>
+</log>
+<log realm="Q2.system" at="2021-11-01T15:11:49.340266400">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\30_txnmgr.xml
+  </trace>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2021-11-01T15:11:49.340266400">
+  <info>
+    stop Thread[txnmgr-0:idle,5,main], active sessions=1
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2021-11-01T15:11:49.340266400">
+  <info>
+    stop Thread[txnmgr-1:idle,5,main], active sessions=0
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T15:11:49.340266400">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\30_txnmgr.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T15:11:49.340266400">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\20_mux_jpos.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2021-11-01T15:11:49.340266400">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\20_mux_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T15:11:49.340266400">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\10_channel_jpos.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2021-11-01T15:11:49.355894300">
+  <info>
+    undeployed:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\10_channel_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-11-01T15:11:49.355894300">
+  <trace>
+    undeploying:C:\Desarrollo\jpos-2.1.1-SNAPSHOT\deploy\00_logger.xml
+  </trace>
+</log>
+</logger>

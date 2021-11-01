@@ -1,0 +1,7 @@
+       Value     Percentile TotalCount 1/(1-Percentile)
+
+        0.00 0.000000000000          1           1.00
+        0.00 1.000000000000          1
+#[Mean    =         0.00, StdDeviation   =         0.00]
+#[Max     =         0.00, Total count    =            1]
+#[Buckets =            9, SubBuckets     =          256]
